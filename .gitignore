@@ -1,0 +1,89 @@
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VirtualBox VMs (don't commit VM files)
+*.vbox
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
+VirtualBox VMs/
+
+# VMware VMs
+*.vmx
+*.vmdk
+*.vmss
+*.nvram
+
+# ISOs (large files)
+*.iso
+*.img
+
+# Splunk indexes (large data)
+splunk/
+/opt/splunk/
+C:/Program Files/Splunk/
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# Credentials and secrets
+.env
+.env.local
+.env.*.local
+secrets/
+credentials/
+*.pem
+*.key
+
+# Downloads (ISOs, installers)
+Downloads/
+downloads/
+
+# Screenshots placeholder (too large for GitHub)
+# Keep CHECKLIST.md but not actual images if >100MB
+# screenshots/*.png
+# screenshots/*.jpg
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# PowerShell transcripts
+PSTranscripts/
+
+# Sysmon logs
+SysmonLogs/
+
+# Export files
+*.csv
+*.json
+*.xml
+!architecture/
+!detections/
+!dashboards/
+!mitre_attack_mapping/
+!docs/
+!reports/
+!resume_content/
+
+# Keep documentation markdown files
+!*.md
